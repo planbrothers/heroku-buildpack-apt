@@ -1,3 +1,7 @@
+## FORK NOTICE
+
+This is a clone of https://github.com/duanehutchins/heroku-buildpack-apt/ repository. It includes the contents of pull request https://github.com/heroku/heroku-buildpack-apt/pull/39. It is needed so that `nmap` works correctly with the Heroku-18 stack.
+
 # heroku-buildpack-apt [![Build Status](https://travis-ci.org/heroku/heroku-buildpack-apt.svg?branch=master)](https://travis-ci.org/heroku/heroku-buildpack-apt)
 
 Add support for apt-based dependencies during both compile and runtime.
